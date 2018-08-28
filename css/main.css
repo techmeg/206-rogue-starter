@@ -1,0 +1,318 @@
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-size: 1em;
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+/*The widths are in a percentage!*/
+header {
+	height: 150px;
+	border-bottom: 3px solid #77a466;
+	margin: 0 auto;
+	font-size: .875em;
+}
+
+header h1 {
+	border-bottom: 3px solid #77a466;
+	font-size: 2em;
+	margin: 0;
+	padding: 1em 1em .5em;
+	text-align: center;
+}
+header h1 span {
+	color: #77a466;
+}
+
+header nav {
+
+	padding: .5em 0;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+header nav ul li {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1em;
+	padding: 0 2em;
+	display: block;
+}
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+}
+.nav-col1 {
+	float: left;
+}
+.nav-col2 {
+	float: right;
+}
+
+/*The widths are in a percentage!*/
+.top-section,
+.bottom-section {
+	margin: 0 auto;
+	clear: both;
+}
+.top-section {
+	font-size: 1em;
+}
+
+.main-image {
+	height: auto;
+	float: left;
+}
+.main-image img {
+	width: 100%;
+	border-bottom: 3px solid #77a466;
+}
+
+.main-title {
+	height: auto;
+	float: left;
+}
+.top-section .main-title h3 {
+	text-align: left;
+	font-size: 1.25em;
+	margin: 0;
+	padding: .3em 0 .625em;
+	color: #77a466;
+}
+.top-section .main-title p {
+	padding: 0 0 1em;
+	font-size: 1em;
+	line-height: 1.5em;
+	margin: 0;
+}
+
+.bottom-section .section-one,
+.bottom-section .section-two,
+.bottom-section .section-three {
+	width: 100%;
+	height: auto;
+	border-top: 1px solid #eee;
+	font-size: 1em;
+}
+
+.bottom-section .section-one h4,
+.bottom-section .section-two h4,
+.bottom-section .section-three h4 {
+		padding: .71em 0 .5em;
+		text-align: center;
+		margin: 0;
+
+}
+
+.bottom-section .section-one li,
+.bottom-section .section-three p {
+	text-align: center;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+}
+.bottom-section .menu li {
+	padding: .3em 0;
+	color:#77a466;
+}
+
+.bottom-section .reviews {
+	color: #333;
+	font-size: 1em;
+	line-height: 1.125em;
+}
+
+.bottom-section .address {
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+/*The widths are in a percentage!*/
+footer {
+	height: 50px;
+	border-top: 3px solid #eee;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+	font-size: .875em;
+}
+footer span {
+	font-family: 'Wisdom Script', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: .875em;
+}
+/***--------------------------------------------------------------***/
+    /* Tablet styles here */
+@media all and (min-width:768px) {
+
+		header {
+			height: auto;
+			border-bottom: none;
+			margin: 0 auto;
+			font-size: 1em;
+		}
+
+		header h1 {
+
+			font-size: 2em;
+			margin: 0;
+			padding: 1em 1em 0;
+			text-align: left;
+		}
+		header h1 span {
+			color: #77a466;
+		}
+
+		header nav {
+
+			padding: .5em 0;
+		}
+		header nav ul {
+			margin: 0;
+			padding: 0;
+		}
+		header nav ul li {
+			margin-left: 1em;
+			text-transform: uppercase;
+			font-weight: 700;
+			font-size: 1em;
+			padding: 0 1em;
+			display: inline;
+		}
+		header nav ul li a{
+			text-decoration: none;
+			color:#77a466;
+		}
+		.nav-col1 {
+			float: left;
+		}
+		.nav-col2 {
+			float: left;
+		}
+
+		/*The widths are in a percentage!*/
+		.top-section,
+		.bottom-section {
+			margin: 0 2%;
+			clear: both;
+		}
+		.top-section {
+			font-size: 1.2em;
+			border-top: 3px solid #77a466;
+
+		}
+
+		.main-image {
+			height: auto;
+			float: left;
+		}
+		.main-image img {
+			width: 100%;
+			border-bottom: 3px solid #77a466;
+		}
+
+		.main-title {
+			height: auto;
+			float: left;
+		}
+		.top-section .main-title h3 {
+			text-align: left;
+			font-size: 1.25em;
+			margin: 0;
+			padding: .3em 0 .625em;
+			color: #77a466;
+		}
+		.top-section .main-title p {
+			padding: 0 0 1em;
+			font-size: 1em;
+			line-height: 1.5em;
+			margin: 0;
+		}
+
+		.bottom-section .section-one,
+		.bottom-section .section-two,
+		.bottom-section .section-three {
+			width: 100%;
+			height: auto;
+			border-top: 1px solid #eee;
+			font-size: 1em;
+		}
+
+		.bottom-section .section-one h4,
+		.bottom-section .section-two h4,
+		.bottom-section .section-three h4 {
+				padding: .71em 0 .5em;
+				text-align: center;
+				margin: 0;
+
+		}
+
+		.bottom-section .section-one li,
+		.bottom-section .section-three p {
+			text-align: center;
+		}
+
+		.menu {
+			list-style: none;
+			padding: 0;
+		}
+		.bottom-section .menu li {
+			padding: .3em 0;
+			color:#77a466;
+		}
+
+		.bottom-section .reviews {
+			color: #333;
+			font-size: 1em;
+			line-height: 1.125em;
+		}
+
+		.bottom-section .address {
+			font-size: 1em;
+			line-height: 1.5em;
+		}
+
+		/*The widths are in a percentage!*/
+		footer {
+			height: 50px;
+			border-top: 3px solid #eee;
+			margin: 0 auto;
+			clear: both;
+			text-align: center;
+			font-size: .875em;
+		}
+		footer span {
+			font-family: 'Wisdom Script', cursive;
+			text-transform: lowercase;
+			color: #77a466;
+			font-size: 14px;
+		}
+}
+
+@media all and (min-width:940px) {
+    /* Desktop styles here */
