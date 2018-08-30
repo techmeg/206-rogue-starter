@@ -344,6 +344,9 @@ footer span {
 			padding: 0 .2em;
 			display: inline;
 		}
+		.top-section .main-title h3 {
+			padding: 1em 0 .625em;
+		}
 		.bottom-section {
 			font-size: 1.2em;
 		}
