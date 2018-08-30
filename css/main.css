@@ -178,7 +178,6 @@ footer span {
 		}
 
 		header h1 {
-
 			font-size: 2em;
 			margin: 0;
 			padding: 1em 1em 0;
@@ -189,7 +188,7 @@ footer span {
 		}
 
 		header nav {
-
+			margin-bottom: 1em;
 			padding: .5em 0;
 		}
 		header nav ul {
@@ -327,3 +326,27 @@ footer span {
 
 @media all and (min-width:940px) {
     /* Desktop styles here */
+
+		header h1 {
+			border-bottom: none;
+			font-size: 2.5em;
+			float: left;
+			padding: 38px 0 38px .5em;
+		}
+		header nav {
+			float: right;
+			padding-top: 46px;
+		}
+		header nav ul li {
+			text-transform: uppercase;
+			font-weight: 700;
+			font-size: .875em;
+			padding: 0 .2em;
+			display: inline;
+		}
+		.bottom-section {
+			font-size: 1.2em;
+		}
+		footer {
+			font-size: 1.5em;
+		}
